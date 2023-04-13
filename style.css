@@ -1,0 +1,67 @@
+/* Set the font family and size for the whole page */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Style the headings */
+h1, h2, h3 {
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+/* Style the paragraphs */
+p {
+  margin-bottom: 10px;
+}
+
+/* Style the unordered lists */
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* Style the list items */
+li {
+  margin-bottom: 5px;
+}
+
+/* Add a gray border to the page */
+body {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+/* Add a light blue background color to the headings */
+h1, h2, h3 {
+  background-color: #f0f8ff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Add a light gray background color to the summary paragraph */
+h2:first-of-type + p {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Add a light gray background color to the experience and education sections */
+h2 + h3 + p, h2 + h3 + ul {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 5px;
+}
